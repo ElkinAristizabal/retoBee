@@ -1,0 +1,28 @@
+Informe Reto Bee: Elkin Aristizabal
+
+1. Principales pasos realizados con su respectiva explicación de cómo y porque se realizaron.
+
+	- Se crea el proyeto dede el IDE IntellIJ con Java 21 y Gradle 8.7 
+	- Se crea el encarpetado con el patron de diseño BDD (Tasks, Questions, Interactions, Enums, Utils, PageObjects, Runners, StepDefinitions, features)
+	- Se configura el gradle.build con todas las dependencias y plugins necesarios (Serenity, Gherkin, Cucumber, etc)
+	- Se configura el archivo serenity.conf con todas la configuraciones necesarias, variables de entorno, configuración del webdriver.
+	- Se diseña los escenarios en .feature con lenguaje Gherkin
+	- Se crean los stepdefinitions para lograr implementar los escenarios en lenguaje natural con codigo
+	- Se mapean los elementos necesarios para interactuar durante el escenario
+	- Se crean las tareas, las interacciones, questions y utils para ejecutar el escenario por medio del actor y por ultimo validar los criterios de aceptación por medio de las questions.
+	- Se corre el escenario validando que no sean falsos positivos los resultados
+
+2. Enlace al repositorio de GITHUB o Azure que incluya: Todo el código de la automatización realizada para el reto.
+
+	- https://github.com/ElkinAristizabal/retoBee	
+
+3. Lista de comandos de GIT utilizados para subir el código (los comandos completos con todos sus parámetros y opciones).
+
+	- git init 
+	- git remote add origin https://github.com/ElkinAristizabal/retoBee.git
+	- branch -M main
+	- git remote set-url origin https://ElkinAristizabal:{token_github}@github.com/ElkinAristizabal/retoBee.git
+	- git add .
+	- git commit -m "Se sube reto tecnico"
+	- git push -u origin main   
+
